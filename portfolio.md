@@ -76,5 +76,5 @@ Responsible for entirety of App (Design, Code, Backend, Calculations)
 ### Cubes In Space
 
 (Github Repository)[https://github.com/RPasecky/CubesInSpace]
+<img style="float: center;" src="images/paddleDemo.gif">
 
-![CubesInSpace Demo](../images/paddleDemo.gif)
