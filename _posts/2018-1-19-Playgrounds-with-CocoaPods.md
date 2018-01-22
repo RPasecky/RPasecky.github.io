@@ -40,7 +40,7 @@ You'll tell your playground about the new target
 
 ## Step 1. Create a Playground
 
-- Open *Xcode*
+- Open **Xcode**
 - Go to File &rarr; New &rarr; Playground. 
 - Name the playground whatever you want (e.g. 'CoolAppPlayground') and save it in the root directory of your App.
 - Finally Drag it into your open XCode Project next to your .xcodeproject file
@@ -58,7 +58,7 @@ Once you have a playground in your project you should be able to run interactive
 
 Next up, you need to create a new Target which will allow your playground to mirror the abilities standard target.  
 
-Do this by opening up your desired project and clicking (*Xcode* &rarr; *File* &rarr; *New* &rarr; *Target* &rarr; *Scroll* to the bottom &rarr; select *Cocoa Touch Framework*
+Do this by opening up your desired project and clicking (**Xcode** &rarr; **File** &rarr; **New** &rarr; **Target** &rarr; **Scroll** to the bottom &rarr; select **Cocoa Touch Framework**
 
 Once you do this you will be brought to a screen prompts you for a bit more information. Here, you'll just need to:
 - Create a name for your framework (i.e. 'CoolAppPlaygroundFramework') 
@@ -95,7 +95,7 @@ target 'CoolApp' do
 end
 ```
 
-Copy and paste the text from target=>.....=>end, and replace the existing target with the name of the Target you just created. Once that is done, you will end up with a  as shown below
+Copy and paste the text from target  &rarr; ...  &rarr; end, and replace the existing target with the name of the Target you just created. Once that is done, you will end up with a  as shown below
 
 ```swift
 	platform :ios, '11.0'
