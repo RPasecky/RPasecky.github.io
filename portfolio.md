@@ -15,7 +15,7 @@ I see a lot of room for improvement in all aspects of education, shift the focus
 - Working towards design that interacts w/ FireStore backend that allows for multiple roles, versions of submissions
 - Currently at 500 Monthly Users
 
-### Unique Features: 
+#### Unique Features: 
 - Real time conversations
 - 2D collection view for viewing upcoming assignments,
 - Auto-Cropping of camera input,
@@ -23,7 +23,7 @@ I see a lot of room for improvement in all aspects of education, shift the focus
 - Extensive UI/UX Testing. Work with designers to validate and improve ideas
 - Designed UI To easily switch between multiple versions of past work
 
-### Uses:  
+#### Uses:  
 - Push Notifications, 
 - AVFoundation,
 - Firebase Authentication,
@@ -35,7 +35,7 @@ Responsible for entirety of App (Design, Code, Backend, Calculations)
 
 - MVC design that interacts w/ FireStore using Serializable Structs (shown in this project)
 
-### Unique Features: 
+#### Unique Features: 
 - Fuzzy Search (Fuse), 
 - 'Smart' 3D label, 
 - Camera Transitions between Physical Simulation and Styled Camera, 
@@ -44,7 +44,7 @@ Responsible for entirety of App (Design, Code, Backend, Calculations)
 - Created Custom Time Picker w/ Delegate.
 - Integrated Playgrounds to easily validate and upload events
 
-### Uses:  
+#### Uses:  
 - MapKit, 
 - UserNotificationKit, 
 - ZeitSatTracker
@@ -57,12 +57,12 @@ Responsible for entirety of App (Design, Code, Backend, Calculations)
 
 Responsible for entirety of App (Design, Code, Backend, Calculations)
 
-### Unique Features: 
+#### Unique Features: 
 - Advertisements
 - Commissioned Artwork
 
 
-### Uses:  
+#### Uses:  
 - Admob,
 - Fabric Crashyltics
 
