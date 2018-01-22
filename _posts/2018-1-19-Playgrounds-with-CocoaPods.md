@@ -1,14 +1,17 @@
 ---
 layout: post
-title: Playgrounds + CocoaPods (FireStore Edition)
+title: Playgrounds, CocoaPods and Workspaces (featuring FireStore)
 markdown: redcarpet
 ---
 
 
+Playgrounds are great, they allow you to tinker on new ideas much more naturally than the typical code -> compile -> repeat cycle. They give you real time feedback as to whether you're on the right path or your code is behaving unexpectedly. I've used them in the past primarily to build stand-alone libraries ((See here))[https://github.com/dhmspector/ZeitSatTrack/blob/master/ZeitSatTrackLib/CelestialBody.swift] 
 
-Playgrounds are great, they allow you to tinker on new ideas much more naturally than the typical code -> compile -> repeat cycle. They give you real time feedback as to whether you're on the right path, or your code is behaving unexpectedly. I've used them in the past primarily to build stand-alone libraries ((See here)[https://github.com/dhmspector/ZeitSatTrack/blob/master/ZeitSatTrackLib/CelestialBody.swift] 
+That being said, Playgrounds can be much more powerful when integrated inside of your project workspaces. 
 
-That being said, Playgrounds can be much more powerful when integrated inside of your project workspaces. One particular use case I've been interested in is using them to design complex queries using Google's new product: Firebase Firestore
+- You can access all of the methods available within your project
+- Finding bugs in serialization to work goes *much* easier
+One particular use case I've been interested in is using them to design complex queries using Google's new product: Firebase Firestore
 
 <img style="float: right;" src="../images/firestore.png">
 
@@ -45,14 +48,14 @@ At a birds Eye view it takes about 4, maybe 5, steps to get things up and runnin
 
 ## Step 1. Create a Playground
 
+*Note: I believe Xcode 9 removed the ability to create a new playground within your project, this method it still easy enough and gives the same effect.*
+
 - Open **Xcode**
 - Go to File &rarr; New &rarr; Playground. 
 - Name the playground whatever you want (e.g. 'CoolAppPlayground') and save it in the root directory of your App.
 - Finally Drag it into your open XCode Project next to your .xcodeproject file
 
 Once you have a playground in your project you should be able to run interactive code from within your typical project window. Try it out to make sure you didn't run into any unexpected obstacles before moving forward. 
-
-*Note: Xcode 9 removed the ability to create a new playground within your project, this method it still easy enough and gives the same effect.*
 
 ## Step 2. Create a new Target.
 
@@ -98,21 +101,21 @@ end
 Copy and paste the text from target &rarr; end, and replace the existing target with the name of the Target you just created. Once that is done, you will end up with a  as shown below
 
 ```ruby
-	platform :ios, '11.0'
+platform :ios, '11.0'
 
-	target 'CoolApp' do
-		  use_frameworks!
-
-	  pod 'Firebase/Core'
-	  pod 'Firebase/Firestore'
-	end
-
-	target 'CoolAppPlaygroundSupport' do
+target 'CoolApp' do
 	  use_frameworks!
 
-	  pod 'Firebase/Core'
-	  pod 'Firebase/Firestore'
-	end
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
+end
+
+target 'CoolAppPlaygroundSupport' do
+  use_frameworks!
+
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
+end
 ```
 Finally you're going to want to close your project and run 'pod install'. Installation should complete error free. If you do run into problems, the most likely cause is a discrepancy between Deployment targets between the new target ('CoolAppPlaygroundSupport') and the standard target ('CoolApp') for your app.
 
@@ -210,9 +213,10 @@ func getNotes() {
 }
 ```
 
+*Have any fixes? Suggestions? Submit a pull request (here)[https://github.com/RPasecky/RPasecky.github.io/blob/master/_posts/2018-1-19-Playgrounds-with-CocoaPods.md]*
 
 
-Debugging Tools: 
+## Debugging Tools: 
 
 Playgrounds are trying to do a lot at once and can get hung up in some areas that normal, compiled code tested on a device would not. I've tried to list common issues and solutions below. If you followed all the steps in this project and you are not getting it to work, try the steps below. They're a good checklist for cleaning out the crud that can accumulate in Xcode and interfere with your Playground. If you run into anything else, submit a pull request and I'll look into adding it. 
 
