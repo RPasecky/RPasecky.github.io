@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} â€“ {% endif %}{{ site.name }} â€“ {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} œôòó {% endif %}{{ site.name }} œôòó {{ site.description }}</title>
 
     {% include meta.html %}
 
@@ -29,7 +29,7 @@
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
-	    <a href="{{ site.baseurl }}/portfolio" style="color: #ff0000">Portfolio</a>
+	    <a href="{{ site.baseurl }}/portfolio">Porfolio</a>
           </nav>
         </header>
       </div>
