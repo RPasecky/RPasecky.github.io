@@ -4,7 +4,7 @@ title: Playgrounds + CocoaPods (FireStore Edition)
 markdown: redcarpet
 ---
 
-Note: This tutorial is much more useful if you have a FireStore account of your own setup before starting. You can learn how to do that here.
+*Note: This tutorial is much more useful if you have a FireStore account of your own setup before starting. You can learn how to do that here.*
 
 Playgrounds are a great tool for experimenting and prototyping new bits of code in Swift. I've found the most use for them when working on standalone self contained libraries (See here). However I've avoided using them on anything that relied on other libraries because the path to do so wasn't always clear. 
 
@@ -46,7 +46,7 @@ You'll tell your playground about the new target
 - Finally Drag it into your open XCode Project next to your .xcodeproject file
 
 
-Note: Xcode 9 removed the ability to create a new playground within your project, this method it still easy enough and gives the same effect. 
+*Note: Xcode 9 removed the ability to create a new playground within your project, this method it still easy enough and gives the same effect.*
 
 Once you have a playground in your project you should be able to run interactive code from within your typical project window. Try it out to make sure you didn't run into any unexpected obstacles before moving forward. 
 
@@ -147,9 +147,9 @@ let ref = FireStore.firestore()
 
 If all went well, you should see some comforting confirmations that the code ran successfully. 
 
-Note: Again, checkout the troubleshooting section below if you run into issues.
+*Note: Again, checkout the troubleshooting section below if you run into issues.*
 
-Note: I've used Firebase in this case, but I believe this process could be followed with really any CocoaPod that can successfully run on a device simulator.
+*Note: I've used Firebase in this case, but I believe this process could be followed with really any CocoaPod that can successfully run on a device simulator.*
 
 
 I've gone ahead and provided two funtions that will write data and decode it once you're all set up. You should be all set to play around, have fun and enjoy a much easier way of experimenting with database design.  
