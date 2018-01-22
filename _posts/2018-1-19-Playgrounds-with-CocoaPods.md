@@ -39,13 +39,13 @@ You'll tell your playground about the new target
 
 ## Step 1. Create a Playground
 
-- Open XCode 
-- Go to File => New => Playground. 
+- Open *Xcode*
+- Go to File &rarr; New &rarr; Playground. 
 - Name the playground whatever you want (e.g. 'CoolAppPlayground') and save it in the root directory of your App.
 - Finally Drag it into your open XCode Project next to your .xcodeproject file
 
 
-Note: XCode 9 removed the ability to create a new playground within your project, this method it still easy enough and gives the same effect. 
+Note: Xcode 9 removed the ability to create a new playground within your project, this method it still easy enough and gives the same effect. 
 
 Once you have a playground in your project you should be able to run interactive code from within your typical project window. Try it out to make sure you didn't run into any unexpected obstacles before moving forward. 
 
@@ -57,7 +57,7 @@ Once you have a playground in your project you should be able to run interactive
 
 Next up, you need to create a new Target which will allow your playground to mirror the abilities standard target.  
 
-Do this by opening up your desired project and clicking (XCode => File => New => Target => Scroll to the bottom => select 'Cocoa Touch Framework'
+Do this by opening up your desired project and clicking (*Xcode* &rarr; *File* &rarr; *New* &rarr; *Target* &rarr; *Scroll* to the bottom &rarr; select *Cocoa Touch Framework*
 
 Once you do this you will be brought to a screen prompts you for a bit more information. Here, you'll just need to:
 - Create a name for your framework (i.e. 'CoolAppPlaygroundFramework') 
@@ -110,7 +110,7 @@ Copy and paste the text from target=>.....=>end, and replace the existing target
 	  pod 'Firebase/Core'
 	  pod 'Firebase/Firestore'
 	end
-
+```
 Finally you're going to want to close your project and run 'pod install'. Installation should complete error free. If you do run into problems, the most likely cause is a discrepancy between Deployment targets between the new target ('CoolAppPlaygroundSupport') and the standard target ('CoolApp') for your app.
 
 
@@ -213,7 +213,7 @@ I've gone ahead and provided two funtions that will write data and decode it onc
 
 Debugging Tools: 
 
-Playgrounds are trying to do a lot at once and can get hung up in some areas that normal, compiled code tested on a device would not. I've tried to list common issues and solutions below. If you followed all the steps in this project and you are not getting it to work, try the steps below. They're a good checklist for cleaning out the crud that can accumulate in XCode and interfere with your Playground. If you run into anything else, submit a pull request and I'll look into adding it. 
+Playgrounds are trying to do a lot at once and can get hung up in some areas that normal, compiled code tested on a device would not. I've tried to list common issues and solutions below. If you followed all the steps in this project and you are not getting it to work, try the steps below. They're a good checklist for cleaning out the crud that can accumulate in Xcode and interfere with your Playground. If you run into anything else, submit a pull request and I'll look into adding it. 
 
 
 Issue: Cannot import the framework I created. There can be a whole number of reasons for this.
