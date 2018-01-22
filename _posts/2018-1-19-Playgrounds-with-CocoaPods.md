@@ -5,17 +5,18 @@ markdown: redcarpet
 ---
 
 
-Playgrounds are great, they allow you to tinker on new ideas much more naturally than the typical code -> compile -> repeat cycle. They give you real time feedback as to whether you're on the right path or your code is behaving unexpectedly. I've used them in the past primarily to build stand-alone libraries ((See here))[https://github.com/dhmspector/ZeitSatTrack/blob/master/ZeitSatTrackLib/CelestialBody.swift] 
+Playgrounds are great, they allow you to tinker on new ideas much more naturally than the typical *code* &rarr; *compile* &rarr; *repeat* cycle. They give you real time feedback as to whether you're on the right path or your code is behaving unexpectedly. I've used them in the past primarily to build stand-alone libraries ((See here))[https://github.com/dhmspector/ZeitSatTrack/blob/master/ZeitSatTrackLib/CelestialBody.swift] however a new project had me itching to integrate them to facilitate designing the communication interface with Firestore
 
 That being said, Playgrounds can be much more powerful when integrated inside of your project workspaces. 
 
 - You can access all of the methods available within your project
-- Finding bugs in serialization to work goes *much* easier
-One particular use case I've been interested in is using them to design complex queries using Google's new product: Firebase Firestore
+- Finding bugs in serialization to work goes *much* faster
+- You can use it as a de-facto editor to upload new objects to FireStore with built in validation. 
+
 
 <img style="float: right;" src="../images/firestore.png">
 
-The path to integrating Playgrounds into your project is fairly complex, however it becomes fairly simple once you've done it once. The results are most definitely worth it.
+The path to integrating Playgrounds into your project is fairly complex, however it becomes much easier once you've done it once. The results are most definitely worth it.
 
 *Note: This tutorial is much more useful if you have a FireStore account of your own setup before starting. You can learn how to do that here.*
 
