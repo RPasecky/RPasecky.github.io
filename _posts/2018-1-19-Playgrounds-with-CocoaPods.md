@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Playgrounds + CocoaPods (FireStore Edition)
+markdown: redcarpet
 ---
 
 Note: This tutorial is much more useful if you have a FireStore account of your own setup before starting. You can learn how to do that here.
@@ -11,7 +12,7 @@ Recently, however, I've been breaking ground on a new app for iOS using a fireba
 
 
 
-BEFORE 					 			AFTER
+BEFORE 					 			    AFTER
 
 
 
@@ -82,19 +83,21 @@ The target you just created is going to provide a way for Playgrounds to import 
 
 Let's get started by editing the example below: 
 
-	platform :ios, '11.0'
+```swift
+platform :ios, '11.0'
 
-	target 'CoolApp' do
-	  use_frameworks!
+target 'CoolApp' do
+  use_frameworks!
 
-	  # Pods for CoolApp
-	  pod 'Firebase/Core'
-	  pod 'Firebase/Firestore'
-	end
+  # Pods for CoolApp
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
+end
+```
 
 Copy and paste the text from target=>.....=>end, and replace the existing target with the name of the Target you just created. Once that is done, you will end up with a  as shown below
 
-```
+```swift
 	platform :ios, '11.0'
 
 	target 'CoolApp' do
@@ -130,7 +133,7 @@ The build should be successful, if not check out the debugging section below for
 
 Finally, the moment you've been waiting for. Select your playground and import the Target you've created as shown below: 
 
-```
+```swift
 import CoolAppPlaygroundSupport
 import PlaygroundSupport 
 import FirebaseFirestore
@@ -151,63 +154,61 @@ Note: I've used Firebase in this case, but I believe this process could be follo
 
 I've gone ahead and provided two funtions that will write data and decode it once you're all set up. You should be all set to play around, have fun and enjoy a much easier way of experimenting with database design.  
 
-	
-	//Keep in mind that these need to be run continuously, comment out a function call to keep it from running
-	
-	var allowUpload = true
-	var allowDownload = true
+```swift	
+//Keep in mind that these need to be run continuously, comment out a function call to keep it from running	
+var allowUpload = true
+var allowDownload = true
 
-	postNotes() //You should only run this once unless you plan to add more notes
-	getNotes() 
+postNotes() //You should only run this once unless you plan to add more notes
+getNotes() 
 
-	func postNotes() {
+func postNotes() {
 
-		guard allowUpload == true else {
-			print("Blocked Upload request -- Request previously run")
-			return
-		} // prevents continuously overwriting data
-
-
-		let pastDate = Date().addingTimeInterval(-100000)
-		let futureDate = Date().addingTimeInterval(100000) 
-		let currentDate  = Date()
-
-		let note1 = ["Title": "Falcon 9 Launch Friday",
-					 "Text" : "Remember that the launch is on friday, Leave by 4pm to get there on time"
-					 "Date" : pastDate]
+	guard allowUpload == true else {
+		print("Blocked Upload request -- Request previously run")
+		return
+	} // prevents continuously overwriting data
 
 
-		let note2 = ["Title": "Pizza Party Saturday",
-					 "Text" : "Remember to eat some pizza"
-					 "Date" : currentDate]
+	let pastDate = Date().addingTimeInterval(-100000)
+	let futureDate = Date().addingTimeInterval(100000) 
+	let currentDate  = Date()
+
+	let note1 = ["Title": "Falcon 9 Launch Friday",
+				 "Text" : "Remember that the launch is on friday, Leave by 4pm to get there on time"
+				 "Date" : pastDate]
 
 
-		let note2 = ["Title": "Sleep on Sunday",
-					 "Text" : "Remember to Sleep a lot"
-					 "Date" : futureDate]
+	let note2 = ["Title": "Pizza Party Saturday",
+				 "Text" : "Remember to eat some pizza"
+				 "Date" : currentDate]
 
-		let notes = [note1, note2, note3]
 
-		for note in notes {
-			ref.upload(notes){ completion: {finished in allowUpload = false }}
-		}
+	let note2 = ["Title": "Sleep on Sunday",
+				 "Text" : "Remember to Sleep a lot"
+				 "Date" : futureDate]
+
+	let notes = [note1, note2, note3]
+
+	for note in notes {
+		ref.upload(notes){ completion: {finished in allowUpload = false }}
 	}
+}
 
-	//Should print out the title of all the notes that have a date in the future
-	func getNotes() {
+//Should print out the title of all the notes that have a date in the future
+func getNotes() {
 
-		guard allowDownload == true else {    // prevents continuously downloading data
-			print("Blocked Download request -- Request Previously Run")
-			return
-		} 
-		ref.getDocument .where("Date" > now) {
-			for document in queryResults.getData() {
+	guard allowDownload == true else {    // prevents continuously downloading data
+		print("Blocked Download request -- Request Previously Run")
+		return
+	} 
+	ref.getDocument .where("Date" > now) {
+		for document in queryResults.getData() {
 
-			} completion: { (finished) in allowDownload = false }
-		}
+		} completion: { (finished) in allowDownload = false }
 	}
-	
-
+}
+```
 
 
 
