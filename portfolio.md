@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Ryan Pasecky Portfolio
 markdown: redcarpet
 ---
@@ -7,7 +7,6 @@ markdown: redcarpet
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l-jRFphHKY0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Floop: 
-
 
 I see a lot of room for improvement in all aspects of education, shift the focus to student growth over evaluation (correlations.) Floop looks like an incredible opportunity to do this. 
 
@@ -27,7 +26,6 @@ I see a lot of room for improvement in all aspects of education, shift the focus
 - Push Notifications, 
 - AVFoundation,
 - Firebase Authentication,
-
 
 ## Spacin' Around: 
 
