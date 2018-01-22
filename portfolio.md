@@ -10,12 +10,19 @@ markdown: redcarpet
 
 
 ## Floop: 
+*Winner of 4.0 Schools 'Tiny Fellowship', Winner of Seattle Startup Weekend EDU*
 
-Floop enables teachers to give meaningful feedback, faster. Floop accomplishes this by digitizing student work and fostering conversations between students and teachers. 
+Floop enables teachers to give meaningful feedback, faster. 
 
-- Created entirety of iOS App (Design, Code)
+We set out with a goal of reclaiming time for teachers who carry around large stacks of papers and notebooks and spend dozens of hours a week grading them (keep in mind, the average high school teacher can easily have over 200 students at one time). We saw a particular pain point with messy work typical in the STEM environment (Graphs, Diagrams, 3D models, mathmatic equations) that currently doesn't play well with computers. Our solution was to create a mobile platform capable of 
+
+On this project I: 
+- Worked with team of peers to formulate a solution, create a plan of attack and build an infrastructure to support our product.
+- Helped write and create materials for funcing applications 
+- Was responsible for the entirety of iOS App (Design, Code)
+- Automated Data backups, 
 - Collaborated on Database design
-- Currently at 500 Monthly Users
+
 
 #### Unique Features: 
 - Real time conversations
@@ -35,7 +42,7 @@ Floop enables teachers to give meaningful feedback, faster. Floop accomplishes t
 
 Responsible for entirety of App (Design, Code, Backend, Calculations)
 
-- MVC design that interacts w/ FireStore using Serializable Structs (shown in this project)
+- MVC design that interacts w/ FireStore using Serializable Structs
 
 #### Unique Features: 
 - Fuzzy Search (Fuse), 
@@ -58,11 +65,11 @@ Responsible for entirety of App (Design, Code, Backend, Calculations)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4t7O9Zr7dCU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Responsible for entirety of App (Design, Code, Backend, Calculations)
+Responsible for entirety of App (Design, Code, Animation, Music)
 
 #### Unique Features: 
 - Advertisements
-- Commissioned Artwork
+- Worked with designer to create background artwork
 
 
 #### Uses:  
@@ -76,8 +83,11 @@ Responsible for entirety of App (Design, Code, Backend, Calculations)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g4uJb2z8d1E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+Prototype for teaching students biochemistry quickly with several types of questions. 
+
+
 ### Cubes In Space
 
-(Github Repository)[https://github.com/RPasecky/CubesInSpace]
+[Github Repository](https://github.com/RPasecky/CubesInSpace)
 ![ARKit Demo](./images/paddleDemo.gif)
-
+Created a popular repository on Github for getting started with ARKit.
