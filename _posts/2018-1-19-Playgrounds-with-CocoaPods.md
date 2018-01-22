@@ -4,12 +4,14 @@ title: Playgrounds + CocoaPods (FireStore Edition)
 markdown: redcarpet
 ---
 
-*Note: This tutorial is much more useful if you have a FireStore account of your own setup before starting. You can learn how to do that here.*
+<img style="float: right;" src="images/firestore.png">
+Playgrounds are an incredible tool for experimenting and and iterating on ideas in Swift. 
 
-Playgrounds are a great tool for experimenting and prototyping new bits of code in Swift. I've found the most use for them when working on standalone self contained libraries (See here). However I've avoided using them on anything that relied on other libraries because the path to do so wasn't always clear. 
+In the past I've primarily used them to build self-contained libraries ((See here)[https://github.com/dhmspector/ZeitSatTrack/blob/master/ZeitSatTrackLib/CelestialBody.swift]. However, when it comes to using them on anything that requires dependencies, the path to success can get a bit muddled. 
 
 Recently, however, I've been breaking ground on a new app for iOS using a firebase as a backend. After compiling one too many times while tinkering with queries, I realized that this might be a great opportunity to bring playgrounds into my project. The results we're pretty neat! The path to integrating Playgrounds into your project is surprisingly simple once you've done it once. Though not exactly fun to figure out for yourself. Hopefully this helps out anyone interested in using this powerful tool in your development. 
 
+*Note: This tutorial is much more useful if you have a FireStore account of your own setup before starting. You can learn how to do that here.*
 
 
 BEFORE 					 			    AFTER
@@ -31,11 +33,11 @@ BEFORE 					 			    AFTER
 
 At a birds Eye view it takes about 4, maybe 5, steps to get things up and running
 
-You'll create a playground
-You'll create a new target in your project
-You'll tell CocoaPods about the new target
-You'll tell files in your project about the new target (Optional)
-You'll tell your playground about the new target
+- You'll create a playground
+- You'll create a new target in your project
+- You'll tell CocoaPods about the new target
+- You'll tell files in your project about the new target (Optional)
+- You'll tell your playground about the new target
 
 
 ## Step 1. Create a Playground
@@ -45,15 +47,10 @@ You'll tell your playground about the new target
 - Name the playground whatever you want (e.g. 'CoolAppPlayground') and save it in the root directory of your App.
 - Finally Drag it into your open XCode Project next to your .xcodeproject file
 
+Once you have a playground in your project you should be able to run interactive code from within your typical project window. Try it out to make sure you didn't run into any unexpected obstacles before moving forward. 
 
 *Note: Xcode 9 removed the ability to create a new playground within your project, this method it still easy enough and gives the same effect.*
 
-Once you have a playground in your project you should be able to run interactive code from within your typical project window. Try it out to make sure you didn't run into any unexpected obstacles before moving forward. 
-
-
-
-
- 
 ## Step 2. Create a new Target.
 
 Next up, you need to create a new Target which will allow your playground to mirror the abilities standard target.  
@@ -83,7 +80,7 @@ The target you just created is going to provide a way for Playgrounds to import 
 
 Let's get started by editing the example below: 
 
-```swift
+```ruby
 platform :ios, '11.0'
 
 target 'CoolApp' do
@@ -95,9 +92,9 @@ target 'CoolApp' do
 end
 ```
 
-Copy and paste the text from target  &rarr; ...  &rarr; end, and replace the existing target with the name of the Target you just created. Once that is done, you will end up with a  as shown below
+Copy and paste the text from target &rarr; end, and replace the existing target with the name of the Target you just created. Once that is done, you will end up with a  as shown below
 
-```swift
+```ruby
 	platform :ios, '11.0'
 
 	target 'CoolApp' do
