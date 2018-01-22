@@ -1,17 +1,20 @@
 ---
 layout: page
-title: Ryan Pasecky Portfolio
+title: Overview Of Work
 markdown: redcarpet
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l-jRFphHKY0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/l-jRFphHKY0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
 
 ## Floop: 
 
-I see a lot of room for improvement in all aspects of education, shift the focus to student growth over evaluation (correlations.) Floop looks like an incredible opportunity to do this. 
+Floop enables teachers to give meaningful feedback, faster. Floop accomplishes this by digitizing student work and fostering conversations between students and teachers. 
 
-- Responsible for entirety of App (Design, Code, Backend, Calculations
-- Working towards design that interacts w/ FireStore backend that allows for multiple roles, versions of submissions
+- Created entirety of iOS App (Design, Code)
+- Collaborated on Database design
 - Currently at 500 Monthly Users
 
 #### Unique Features: 
@@ -26,6 +29,7 @@ I see a lot of room for improvement in all aspects of education, shift the focus
 - Push Notifications, 
 - AVFoundation,
 - Firebase Authentication,
+- Grand Central Dispatch
 
 ## Spacin' Around: 
 
@@ -46,6 +50,7 @@ Responsible for entirety of App (Design, Code, Backend, Calculations)
 - MapKit, 
 - UserNotificationKit, 
 - ZeitSatTracker
+- Grand Central Dispatch
 - FireStore
 - Fabric
 
