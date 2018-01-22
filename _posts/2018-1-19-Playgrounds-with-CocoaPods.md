@@ -4,14 +4,15 @@ title: Playgrounds + CocoaPods (FireStore Edition)
 markdown: redcarpet
 ---
 
-update 9
+
+
+Playgrounds are great, they allow you to tinker on new ideas much more naturally than the typical code -> compile -> repeat cycle. They give you real time feedback as to whether you're on the right path, or your code is behaving unexpectedly. I've used them in the past primarily to build stand-alone libraries ((See here)[https://github.com/dhmspector/ZeitSatTrack/blob/master/ZeitSatTrackLib/CelestialBody.swift] 
+
+That being said, Playgrounds can be much more powerful when integrated inside of your project workspaces. One particular use case I've been interested in is using them to design complex queries using Google's new product: Firebase Firestore
 
 <img style="float: right;" src="../images/firestore.png">
-Playgrounds are an incredible tool for experimenting and and iterating on ideas in Swift. 
 
-In the past I've primarily used them to build self-contained libraries ((See here)[https://github.com/dhmspector/ZeitSatTrack/blob/master/ZeitSatTrackLib/CelestialBody.swift]. However, when it comes to using them on anything that requires dependencies, the path to success can get a bit muddled. 
-
-Recently, however, I've been breaking ground on a new app for iOS using a firebase as a backend. After compiling one too many times while tinkering with queries, I realized that this might be a great opportunity to bring playgrounds into my project. The results we're pretty neat! The path to integrating Playgrounds into your project is surprisingly simple once you've done it once. Though not exactly fun to figure out for yourself. Hopefully this helps out anyone interested in using this powerful tool in your development. 
+The path to integrating Playgrounds into your project is fairly complex, however it becomes fairly simple once you've done it once. The results are most definitely worth it.
 
 *Note: This tutorial is much more useful if you have a FireStore account of your own setup before starting. You can learn how to do that here.*
 
