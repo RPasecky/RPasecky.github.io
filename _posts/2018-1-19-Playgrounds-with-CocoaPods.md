@@ -94,7 +94,7 @@ Let's get started by editing the example below:
 
 Copy and paste the text from target=>.....=>end, and replace the existing target with the name of the Target you just created. Once that is done, you will end up with a  as shown below
 
-
+```
 	platform :ios, '11.0'
 
 	target 'CoolApp' do
@@ -130,15 +130,16 @@ The build should be successful, if not check out the debugging section below for
 
 Finally, the moment you've been waiting for. Select your playground and import the Target you've created as shown below: 
 
-```	import CoolAppPlaygroundSupport
-	import PlaygroundSupport 
-	import FirebaseFirestore
+```
+import CoolAppPlaygroundSupport
+import PlaygroundSupport 
+import FirebaseFirestore
 
-	PlaygroundPage.current.needsIndefiniteExecution = true // Important when doing anything async
+PlaygroundPage.current.needsIndefiniteExecution = true // Important when doing anything async
 
-	FirebaseApp.Init()
+FirebaseApp.Init()
 
-	let ref = FireStore.firestore()
+let ref = FireStore.firestore()
 ```
 
 If all went well, you should see some comforting confirmations that the code ran successfully. 
