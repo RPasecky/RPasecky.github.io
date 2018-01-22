@@ -4,8 +4,9 @@ title: Playgrounds + CocoaPods (FireStore Edition)
 markdown: redcarpet
 ---
 
-update 8
-<img style="float: right;" src="..images/firestore.png">
+update 9
+
+<img style="float: right;" src="../images/firestore.png">
 Playgrounds are an incredible tool for experimenting and and iterating on ideas in Swift. 
 
 In the past I've primarily used them to build self-contained libraries ((See here)[https://github.com/dhmspector/ZeitSatTrack/blob/master/ZeitSatTrackLib/CelestialBody.swift]. However, when it comes to using them on anything that requires dependencies, the path to success can get a bit muddled. 
