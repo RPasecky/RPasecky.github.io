@@ -37,7 +37,7 @@ You'll tell files in your project about the new target (Optional)
 You'll tell your playground about the new target
 
 
-Step 1. Create a Playground
+##Step 1. Create a Playground
 
 - Open XCode 
 - Go to File => New => Playground. 
@@ -53,7 +53,7 @@ Once you have a playground in your project you should be able to run interactive
 
 
 
-Step 2. Create a new Target.
+##Step 2. Create a new Target.
 
 Next up, you need to create a new Target which will allow your playground to mirror the abilities standard target.  
 
@@ -76,40 +76,40 @@ Great, step two done. Now it's time to tell Cocoapods about what you did.
 
 
 
-Step 3. Edit your Podfile
+##Step 3. Edit your Podfile
 
 The target you just created is going to provide a way for Playgrounds to import all of the installed Pods in your project with just one line. Before that can happen however, you are going to need to edit your Podfile and reinstall your pods. 
 
 Let's get started by editing the example below: 
 
-		platform :ios, '11.0'
+	platform :ios, '11.0'
 
-		target 'CoolApp' do
-		  use_frameworks!
+	target 'CoolApp' do
+	  use_frameworks!
 
-		  # Pods for CoolApp
-		  pod 'Firebase/Core'
-		  pod 'Firebase/Firestore'
-		end
+	  # Pods for CoolApp
+	  pod 'Firebase/Core'
+	  pod 'Firebase/Firestore'
+	end
 
 Copy and paste the text from target=>.....=>end, and replace the existing target with the name of the Target you just created. Once that is done, you will end up with a  as shown below
 
 
-		platform :ios, '11.0'
+	platform :ios, '11.0'
 
-		target 'CoolApp' do
+	target 'CoolApp' do
 		  use_frameworks!
 
-		  pod 'Firebase/Core'
-		  pod 'Firebase/Firestore'
-		end
+	  pod 'Firebase/Core'
+	  pod 'Firebase/Firestore'
+	end
 
-		target 'CoolAppPlaygroundSupport' do
-		  use_frameworks!
+	target 'CoolAppPlaygroundSupport' do
+	  use_frameworks!
 
-		  pod 'Firebase/Core'
-		  pod 'Firebase/Firestore'
-		end
+	  pod 'Firebase/Core'
+	  pod 'Firebase/Firestore'
+	end
 
 Finally you're going to want to close your project and run 'pod install'. Installation should complete error free. If you do run into problems, the most likely cause is a discrepancy between Deployment targets between the new target ('CoolAppPlaygroundSupport') and the standard target ('CoolApp') for your app.
 
@@ -117,7 +117,7 @@ Finally you're going to want to close your project and run 'pod install'. Instal
 
 
 
-Step 4.  Setting up the Playground.
+##Step 4.  Setting up the Playground.
 
 With your pods installed, open up your project workspace. Your final step is to build against the target you created: 
 
