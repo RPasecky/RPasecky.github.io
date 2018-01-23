@@ -36,15 +36,17 @@ Below is an overview of each of my major projects to date, If you'd like to lear
 
 ## Floop: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lJZ6IU6i_ws?start=21" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 Floop enables teachers to give meaningful feedback, faster. 
 
 We set out with a goal of increasing the role of feedback (vs. grading) in the classroom. We're also interested in reclaiming time for teachers who carry around large stacks of notebooks and spend endless hours grading them.  (The average high school teacher can easily have over 200 students at one time). 
 
 We saw a particular pain point with messy work typical in the STEM environment (Graphs, Diagrams, 3D models, mathmatic equations) that currently doesn't play well with computers. Our solution was to create a mobile platform to digitize messy work and facilitate giving feedback on that work, without the need to carry around the 'stack of papers'
 
-*Winner of 4.0 Schools 'Tiny Fellowship', Winner of Seattle Startup Weekend EDU*
+#### Video: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lJZ6IU6i_ws?start=21" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 
 #### On this project: 
 - Worked with team of peers to formulate a solution, create a plan of attack and build an infrastructure to support our product.
@@ -61,6 +63,7 @@ We saw a particular pain point with messy work typical in the STEM environment (
 - Securely Switch between databases on the fly
 - Extensive UI/UX Testing. Work with designers to validate and improve ideas
 - Designed UI To easily switch between multiple versions of past work
+- *Winner of 4.0 Schools 'Tiny Fellowship', Winner of Seattle Startup Weekend EDU*
 
 #### Uses:  
 - Push Notifications, 
@@ -75,6 +78,9 @@ We saw a particular pain point with messy work typical in the STEM environment (
 There are just *24* satellites responsible for beaming down GPS information to a  majority of devices that you interact with every day. When you get down to it the amount of active, man-made objects in space is actually quite tiny. In humanity's entire history, we've only pushed a few thousand objects into space, thats less than the amount of grains in a cup of rice.  We're just at the beginning of our journey into our little slice of the Universe.  
 
 My goal with ARGlobe is to guide users to an understanding what's going on in earth's orbit. ARKit made visualizing that neighborhood possible, and fun, to show what satellite constellations are out there, what they do, what orbits they use, and what they are there for.  
+#### Video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/km7jVkeiBnc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 #### On this project:
 - Responsible for Design, Code, 
@@ -100,13 +106,6 @@ My goal with ARGlobe is to guide users to an understanding what's going on in ea
 ## Whalin' Around: 
 
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4t7O9Zr7dCU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-
-
-<a href="https://itunes.apple.com/ph/app/whalin-around/id1143954745?mt=8"><img border="0" alt="Download from App Store" src="../images/appStoreDownload.png" width="120" height="40"></a>
-
 #### On this project:
 - Responsible for entirety of App (Design, Code, Animation, Music)
 
@@ -114,6 +113,12 @@ My goal with ARGlobe is to guide users to an understanding what's going on in ea
 - Advertisements
 - Worked with designer to create background artwork
 
+
+#### Video: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4t7O9Zr7dCU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<a href="https://itunes.apple.com/ph/app/whalin-around/id1143954745?mt=8"><img border="0" alt="Download from App Store" src="../images/appStoreDownload.png" width="120" height="40"></a>
 
 #### Uses:  
 - Admob,
