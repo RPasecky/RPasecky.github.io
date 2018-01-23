@@ -11,6 +11,8 @@ markdown: redcarpet
 
 ## Floop: 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lJZ6IU6i_ws?start=21" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 Floop enables teachers to give meaningful feedback, faster. 
 
 We set out with a goal of increasing the role of feedback (vs. grading) in the classroom. We're also interested in reclaiming time for teachers who carry around large stacks of notebooks and spend endless hours grading them.  (The average high school teacher can easily have over 200 students at one time). 
@@ -43,7 +45,7 @@ We saw a particular pain point with messy work typical in the STEM environment (
 
 ## Spacin' Around: 
 
-There are *just 24 satellites* responsible for beaming down GPS information to a  majority of devices that you interact with every day. When you get down to it the amount of active, man-made objects in space is actually quite tiny. In humanity's entire history, we've only pushed a few thousand objects into space, thats less than the amount of grains in a cup of rice.  We're just at the beginning of our journey into our little slice of the Universe.  
+There are just *24* satellites responsible for beaming down GPS information to a  majority of devices that you interact with every day. When you get down to it the amount of active, man-made objects in space is actually quite tiny. In humanity's entire history, we've only pushed a few thousand objects into space, thats less than the amount of grains in a cup of rice.  We're just at the beginning of our journey into our little slice of the Universe.  
 
 My goal with ARGlobe is to guide users to an understanding what's going on in earths orbit. ARKit made visualizing that neighborhood possible, and fun. Possible to show what satellite constellations are out there, what they do, what orbits they use, and what they are there for.  
 
@@ -72,6 +74,12 @@ My goal with ARGlobe is to guide users to an understanding what's going on in ea
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4t7O9Zr7dCU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+Early builds: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xLVv9U6ev5w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C6ZKMqXm0yc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 Responsible for entirety of App (Design, Code, Animation, Music)
 
 #### Unique Features: 
@@ -96,9 +104,9 @@ Prototype for helping students through the 'memorization' portion of Biochemistr
 ### Cubes In Space
 
 [Github Repository](https://github.com/RPasecky/CubesInSpace)
+Created a popular repository on Github for getting started with ARKit.
 
 
 ![ARKit Demo](./images/paddleDemo.gif)
 
 
-Created a popular repository on Github for getting started with ARKit.
