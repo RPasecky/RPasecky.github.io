@@ -43,9 +43,9 @@ We saw a particular pain point with messy work typical in the STEM environment (
 
 ## Spacin' Around: 
 
-There are just *24 satellites* responsible for beaming down GPS information to a vast majority of devices that you interact with every day.  When you get down to it, we live relatively cozy little neighborhood that is entirely possible to memorize. ARKit made visualizing that neighborhood possible, and fun. 
+There are *just 24 satellites* responsible for beaming down GPS information to a  majority of devices that you interact with every day. When you get down to it the amount of active, man-made objects in space is actually quite tiny. In humanity's entire history, we've only pushed a few thousand objects into space, thats less than the amount of grains in a cup of rice.  We're just at the beginning of our journey into our little slice of the Universe.  
 
-My goal with ARGlobe is to guide users to an understanding what's going on in earths orbit. To show what satellite constellations are out there, what they do, what orbits they use, and what they are there for.  
+My goal with ARGlobe is to guide users to an understanding what's going on in earths orbit. ARKit made visualizing that neighborhood possible, and fun. Possible to show what satellite constellations are out there, what they do, what orbits they use, and what they are there for.  
 
 #### On this project:
 - Responsible for Design, Code, 
@@ -90,11 +90,15 @@ Responsible for entirety of App (Design, Code, Animation, Music)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g4uJb2z8d1E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Prototype for teaching students biochemistry quickly with several types of questions. 
+Prototype for helping students through the 'memorization' portion of Biochemistry using an interactive deck of cards
 
 
 ### Cubes In Space
 
 [Github Repository](https://github.com/RPasecky/CubesInSpace)
+
+
 ![ARKit Demo](./images/paddleDemo.gif)
+
+
 Created a popular repository on Github for getting started with ARKit.
