@@ -74,10 +74,8 @@ My goal with ARGlobe is to guide users to an understanding what's going on in ea
 
 ## Whalin' Around: 
 
-<a href="https://itunes.apple.com/ph/app/whalin-around/id1143954745?mt=8">
-<img border="0" alt="W3Schools" src="./images/appStoreDownload.png" width="40" height="120">
 
-<a href="https://itunes.apple.com/ph/app/whalin-around/id1143954745?mt=8">View in App Store</a>
+<a href="https://itunes.apple.com/ph/app/whalin-around/id1143954745?mt=8"><img border="0" alt="Download from App Store" src="./images/appStoreDownload.png" width="40" height="120"></a>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4t7O9Zr7dCU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
