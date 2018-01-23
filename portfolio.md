@@ -49,7 +49,7 @@ We saw a particular pain point with messy work typical in the STEM environment (
 
 There are just *24* satellites responsible for beaming down GPS information to a  majority of devices that you interact with every day. When you get down to it the amount of active, man-made objects in space is actually quite tiny. In humanity's entire history, we've only pushed a few thousand objects into space, thats less than the amount of grains in a cup of rice.  We're just at the beginning of our journey into our little slice of the Universe.  
 
-My goal with ARGlobe is to guide users to an understanding what's going on in earths orbit. ARKit made visualizing that neighborhood possible, and fun. Possible to show what satellite constellations are out there, what they do, what orbits they use, and what they are there for.  
+My goal with ARGlobe is to guide users to an understanding what's going on in earth's orbit. ARKit made visualizing that neighborhood possible, and fun, to show what satellite constellations are out there, what they do, what orbits they use, and what they are there for.  
 
 #### On this project:
 - Responsible for Design, Code, 
