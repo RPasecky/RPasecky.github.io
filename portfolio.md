@@ -21,13 +21,6 @@ Below is an overview of each of my major projects to date, If you'd like to lear
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 
 
@@ -35,8 +28,7 @@ Below is an overview of each of my major projects to date, If you'd like to lear
 
 
 ## Floop: 
-
-Floop enables teachers to give meaningful feedback, faster. 
+#### Floop enables teachers to give meaningful feedback, faster. 
 
 We set out with a goal of increasing the role of feedback (vs. grading) in the classroom. We're also interested in reclaiming time for teachers who carry around large stacks of notebooks and spend endless hours grading them.  (The average high school teacher can easily have over 200 students at one time). 
 
@@ -65,19 +57,19 @@ We saw a particular pain point with messy work typical in the STEM environment (
 - Designed UI To easily switch between multiple versions of past work
 - *Winner of 4.0 Schools 'Tiny Fellowship', Winner of Seattle Startup Weekend EDU*
 
-#### Uses:  
+#### Frameworks:  
 - Push Notifications, 
 - AVFoundation,
 - Firebase Authentication,
 - Grand Central Dispatch
 
-## Spacin' Around: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/km7jVkeiBnc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+## ARGlobe: 
+#### Teaching users what's out there
 
 There are just *24* satellites responsible for beaming down GPS information to a  majority of devices that you interact with every day. When you get down to it the amount of active, man-made objects in space is actually quite tiny. In humanity's entire history, we've only pushed a few thousand objects into space, thats less than the amount of grains in a cup of rice.  We're just at the beginning of our journey into our little slice of the Universe.  
 
-My goal with ARGlobe is to guide users to an understanding what's going on in earth's orbit. ARKit made visualizing that neighborhood possible, and fun, to show what satellite constellations are out there, what they do, what orbits they use, and what they are there for.  
+My goal with ARGlobe is to guide users to an understanding what's going on in earth's orbit. ARKit made visualizing that neighborhood possible, and fun, to show what satellite constellations are out there, what they do, what orbits they use, and what they are there for. 
+
 #### Video:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/km7jVkeiBnc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -95,7 +87,7 @@ My goal with ARGlobe is to guide users to an understanding what's going on in ea
 - Created Custom Time Picker w/ Delegate.
 - Integrated Playgrounds to easily validate and upload events
 
-#### Uses:  
+#### Frameworks:  
 - MapKit, 
 - UserNotificationKit, 
 - ZeitSatTracker
@@ -104,6 +96,7 @@ My goal with ARGlobe is to guide users to an understanding what's going on in ea
 - Fabric
 
 ## Whalin' Around: 
+
 
 
 #### On this project:
@@ -120,7 +113,7 @@ My goal with ARGlobe is to guide users to an understanding what's going on in ea
 
 <a href="https://itunes.apple.com/ph/app/whalin-around/id1143954745?mt=8"><img border="0" alt="Download from App Store" src="../images/appStoreDownload.png" width="120" height="40"></a>
 
-#### Uses:  
+#### Frameworks:  
 - Admob,
 - Fabric Crashyltics
 
