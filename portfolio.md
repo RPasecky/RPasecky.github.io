@@ -45,6 +45,8 @@ We saw a particular pain point with messy work typical in the STEM environment (
 
 ## Spacin' Around: 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/km7jVkeiBnc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 There are just *24* satellites responsible for beaming down GPS information to a  majority of devices that you interact with every day. When you get down to it the amount of active, man-made objects in space is actually quite tiny. In humanity's entire history, we've only pushed a few thousand objects into space, thats less than the amount of grains in a cup of rice.  We're just at the beginning of our journey into our little slice of the Universe.  
 
 My goal with ARGlobe is to guide users to an understanding what's going on in earths orbit. ARKit made visualizing that neighborhood possible, and fun. Possible to show what satellite constellations are out there, what they do, what orbits they use, and what they are there for.  
@@ -71,6 +73,11 @@ My goal with ARGlobe is to guide users to an understanding what's going on in ea
 - Fabric
 
 ## Whalin' Around: 
+
+<a href="https://itunes.apple.com/ph/app/whalin-around/id1143954745?mt=8">
+<img border="0" alt="W3Schools" src="./images/appStoreDownload.png" width="40" height="120">
+
+<a href="https://itunes.apple.com/ph/app/whalin-around/id1143954745?mt=8">View in App Store</a>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4t7O9Zr7dCU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
