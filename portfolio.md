@@ -7,7 +7,7 @@ markdown: redcarpet
 
 
 
-Below is an overview of each of my major projects to date, If you'd like to learn more about a project in particular, keep scrolling
+See the video below for an overview of my major projects to date. If you'd like to learn more about a project in particular, keep scrolling
 
 <iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/l-jRFphHKY0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -58,13 +58,17 @@ We saw a particular pain point with messy work typical in the STEM environment (
 - Firebase Authentication,
 - Grand Central Dispatch
 
+<br/>
+<br/>
+<br/>
+<br/>
+
 ## ARGlobe: 
 
 #### Explore earth's orbit through time in Augmented Reality
 
-There are just *24* satellites responsible for beaming down GPS information to a  majority of devices that you interact with every day. When you get down to it the amount of active, man-made objects in space is actually quite tiny. In humanity's entire history, we've only pushed a few thousand objects into space, thats less than the amount of grains in a cup of rice.  We're just at the beginning of our journey into our little slice of the Universe.  
+My goal with ARGlobe is to guide users to an understanding what's going in real time, just above our head, in earth's orbit. ARKit made visualizing that neighborhood possible, and fun. User's will be able to explore satellite constellations, what they do, what orbits they use and what paths they will take. 
 
-My goal with ARGlobe is to guide users to an understanding what's going on in earth's orbit. ARKit made visualizing that neighborhood possible, and fun, to show what satellite constellations are out there, what they do, what orbits they use, and what they are there for. 
 
 #### Video:
 
@@ -91,14 +95,21 @@ My goal with ARGlobe is to guide users to an understanding what's going on in ea
 - FireStore
 - Fabric
 
+<br/>
+<br/>
+<br/>
+<br/>
+
 ## Whalin' Around: 
 
 #### Really just a game about a whale.
 
-Whalin Around was the first project that I worked on that had the clear goal of create small, polished app to the app store .
+Whalin Around was designed the first project I designed with a goal of completing the app cycle from idea to app store. Targeted a responsive feel, relaxed atmosphere and fun, nerve wracking gameplay.
 
 
 #### Video: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4t7O9Zr7dCU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4t7O9Zr7dCU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
