@@ -4,7 +4,27 @@ title: Overview Of Work
 markdown: redcarpet
 ---
 
+
+
+
+Below is an overview of each of my major projects to date, If you'd like to dig deeper into any, keep scrolling
+
 <iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/l-jRFphHKY0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -78,7 +98,12 @@ My goal with ARGlobe is to guide users to an understanding what's going on in ea
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4t7O9Zr7dCU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Responsible for entirety of App (Design, Code, Animation, Music)
+
+
+<a href="https://itunes.apple.com/ph/app/whalin-around/id1143954745?mt=8"><img border="0" alt="Download from App Store" src="../images/appStoreDownload.png" width="120" height="40"></a>
+
+#### On this project:
+- Responsible for entirety of App (Design, Code, Animation, Music)
 
 #### Unique Features: 
 - Advertisements
@@ -88,10 +113,6 @@ Responsible for entirety of App (Design, Code, Animation, Music)
 #### Uses:  
 - Admob,
 - Fabric Crashyltics
-
-
-<a href="https://itunes.apple.com/ph/app/whalin-around/id1143954745?mt=8"><img border="0" alt="Download from App Store" src="../images/appStoreDownload.png" width="120" height="40"></a>
-
 
 ##### Early builds: 
 
