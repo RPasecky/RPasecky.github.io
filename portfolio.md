@@ -40,7 +40,7 @@ We saw a particular pain point with messy work typical in the STEM environment (
 #### On this project: 
 - Worked with team of peers to formulate a solution, create a plan of attack and build an infrastructure to support our product.
 - Helped write and create materials for funding applications 
-- Was responsible for the entirety of iOS App (Design, Code)
+- Responsible for the entirety of iOS App (Design, Code)
 - Collaborated on Database design
 
 
@@ -71,7 +71,7 @@ My goal with ARGlobe is to guide users to an understanding what's going on in ea
 <iframe width="560" height="315" src="https://www.youtube.com/embed/km7jVkeiBnc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 #### On this project:
-- Responsible for Design, Code, 
+- Responsible for the entirety of iOS App (Design, Code)
 - MVC design that interacts w/ FireStore using Serializable Structs
 
 #### Unique Features: 
