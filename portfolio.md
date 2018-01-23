@@ -22,7 +22,7 @@ Below is an overview of each of my major projects to date, If you'd like to lear
 <br/>
 
 
-## Floop: <p style="font-size: 18px; color: $gray">Floop enables teachers to give meaningful feedback, faster. </p>
+<h2>Floop:</h2> <p style="font-size: 18px; color: $gray">Floop enables teachers to give meaningful feedback, faster. </p>
 
 We set out with a goal of increasing the role of feedback (vs. grading) in the classroom. We're also interested in reclaiming time for teachers who carry around large stacks of notebooks and spend endless hours grading them.  (The average high school teacher can easily have over 200 students at one time). 
 
