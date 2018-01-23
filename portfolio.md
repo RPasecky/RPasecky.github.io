@@ -9,29 +9,31 @@ markdown: redcarpet
 
 Below is an overview of each of my major projects to date, If you'd like to dig deeper into any, keep scrolling
 
-<iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/l-jRFphHKY0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![OverallPortfolio](http://img.youtube.com/vi/l-jRFphHKY0/0.jpg)](http://www.youtube.com/watch?v=l-jRFphHKY0)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 
 ## Floop: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lJZ6IU6i_ws?start=21" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+[![OverallPortfolio](http://img.youtube.com/vi/l-lJZ6IU6i_ws/0.jpg)](http://www.youtube.com/watch?v=lJZ6IU6i_ws?start=21)
+
 
 Floop enables teachers to give meaningful feedback, faster. 
 
