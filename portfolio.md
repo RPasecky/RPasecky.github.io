@@ -69,11 +69,6 @@ We saw a particular pain point with messy work typical in the STEM environment (
 
 My goal with ARGlobe is to guide users to a real-time understanding what's going on above our heads in earth's orbit. ARKit made visualizing that neighborhood possible, and fun. User's will be able to explore satellite constellations, what they do, what orbits they use and what paths they will take. 
 
-
-#### Video:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/km7jVkeiBnc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 #### On this project:
 - Responsible for the entirety of iOS App (Design, Code)
 - MVC design that interacts w/ FireStore using Serializable Structs
