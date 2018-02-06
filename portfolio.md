@@ -104,7 +104,7 @@ My goal with ARGlobe is to guide users to a real-time understanding what's going
 
 #### Really just a game about a whale.
 
-Whalin Around was designed the first project I designed with a goal of completing the app cycle from idea to app store. Targeted a responsive feel, relaxed atmosphere and fun, nerve wracking gameplay.
+Whalin Around was designed with a goal of completing the app cycle from idea to app store. Targeted a responsive feel, relaxed atmosphere and fun, nerve wracking gameplay.
 
 
 #### Video: 
