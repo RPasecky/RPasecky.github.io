@@ -134,8 +134,6 @@ Whalin Around was designed with a goal of completing the app cycle from idea to 
 
 <iframe width="280" height="157" src="https://www.youtube.com/embed/xLVv9U6ev5w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<iframe width="280" height="157" src="https://www.youtube.com/embed/C6ZKMqXm0yc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 
 ## Other Bits
 
