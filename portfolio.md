@@ -110,9 +110,7 @@ Whalin Around was designed with a goal of completing the app cycle from idea to 
 #### Video: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4t7O9Zr7dCU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4t7O9Zr7dCU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+</br>
 <a href="https://itunes.apple.com/ph/app/whalin-around/id1143954745?mt=8"><img border="0" alt="Download from App Store" src="../images/appStoreDownload.png" width="120" height="40"></a>
 
 #### On this project:
