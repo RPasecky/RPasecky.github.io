@@ -9,7 +9,7 @@ markdown: redcarpet
 
 See the video below for an overview of my major projects to date. If you'd like to learn more about a project in particular, keep scrolling
 
-<iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/l-jRFphHKY0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/131BftXIuzI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 <br/>
