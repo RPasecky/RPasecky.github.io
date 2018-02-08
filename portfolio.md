@@ -129,15 +129,14 @@ Whalin Around was designed with a goal of completing the app cycle from idea to 
 
 ##### Early builds: 
 
-<iframe width="280" height="157" src="https://www.youtube.com/embed/xLVv9U6ev5w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="280" height="157" src="https://www.youtube.com/embed/xLVv9U6ev5w?rel=0&amp;showinfo=0&amp;start=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 ## Other Bits
 
 ### ChemDeck
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g4uJb2z8d1E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g4uJb2z8d1E?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 Prototype for helping students through the 'memorization' portion of Biochemistry using an interactive deck of cards
 
 
