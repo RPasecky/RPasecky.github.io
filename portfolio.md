@@ -31,7 +31,7 @@ We saw a particular pain point with messy work typical in the STEM environment (
 
 #### Video: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lJZ6IU6i_ws?start=22" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gUKNKujfPFI?rel=0&amp;showinfo=0&amp;start=22" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 *Winner of 4.0 Schools 'Tiny Fellowship', Winner of Seattle Startup Weekend EDU*
 
