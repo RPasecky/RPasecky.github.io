@@ -7,7 +7,7 @@ markdown: redcarpet
 
 
 
-See the video below for an overview of my major projects to date. If you'd like to learn more about a project in particular, keep scrolling
+See the video below for an overview of my major projects to date. You can find a more detailed description of each below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/131BftXIuzI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -32,7 +32,7 @@ We saw a particular pain point with messy work typical in the STEM environment (
 
 #### Video: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lJZ6IU6i_ws?start=21" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lJZ6IU6i_ws?start=22" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 *Winner of 4.0 Schools 'Tiny Fellowship', Winner of Seattle Startup Weekend EDU*
 
@@ -97,7 +97,7 @@ My goal with ARGlobe is to guide users to a real-time understanding what's going
 
 ## Whalin' Around: 
 
-#### Really just a game about a whale.
+#### A game about a whale
 
 Whalin Around was designed with a goal of completing the app cycle from idea to app store. Targeted a responsive feel, relaxed atmosphere and fun, nerve wracking gameplay.
 
@@ -146,5 +146,3 @@ Created a popular repository on Github for getting started with ARKit.
 
 
 ![ARKit Demo](./images/paddleDemo.gif)
-
-
