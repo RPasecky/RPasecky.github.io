@@ -11,7 +11,6 @@ See the video below for an overview of my major projects to date. You can find a
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/131BftXIuzI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-
 <br/>
 <br/>
 <br/>
@@ -71,7 +70,7 @@ My goal with ARGlobe is to guide users to a real-time understanding what's going
 
 #### Video: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JPZD7Jdx498?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JPZD7Jdx498?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 #### On this project:
 - Responsible for the entirety of iOS App (Design, Code)
@@ -107,7 +106,7 @@ Whalin Around was designed with a goal of completing the app cycle from idea to 
 
 #### Video: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4t7O9Zr7dCU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z75DKWZHfjs?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <br/>
 
