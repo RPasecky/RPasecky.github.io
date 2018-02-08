@@ -75,7 +75,6 @@ My goal with ARGlobe is to guide users to a real-time understanding what's going
 
 #### On this project:
 - Responsible for the entirety of iOS App (Design, Code)
-- MVC design that interacts w/ FireStore using Serializable Structs
 
 #### Unique Features: 
 - Fuzzy Search (Fuse), 
