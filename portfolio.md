@@ -25,7 +25,7 @@ See the video below for an overview of my major projects to date. You can find a
 
 #### Floop enables teachers to give meaningful feedback, faster.
 
-We set out with a goal of increasing the role of feedback (vs. grading) in the classroom. We're also interested in reclaiming time for teachers who carry around large stacks of notebooks and spend endless hours grading them.  (The average high school teacher can easily have over 200 students at one time). 
+We set out with a goal of increasing the role of feedback (vs. grading) in the classroom. We're also interested in reclaiming time for teachers who carry around large stacks of notebooks and spend endless hours grading them.  (The average high school teacher can easily have over 150 students at one time). 
 
 We saw a particular pain point with messy work typical in the STEM environment (Graphs, Diagrams, 3D models, mathmatic equations) that currently doesn't play well with computers. Our solution was to create a mobile platform to digitize messy work and facilitate giving feedback on that work, without the need to carry around the 'stack of papers'
 
@@ -47,15 +47,15 @@ We saw a particular pain point with messy work typical in the STEM environment (
 - Real time conversations
 - 2D collection view for viewing upcoming assignments,
 - Auto-Cropping of camera input,
-- Securely Switch between databases on the fly
-- Extensive UI/UX Testing. Work with designers to validate and improve ideas
-- Designed UI To easily switch between multiple versions of past work
+- Extensive UI/UX Testing. Work with designers and stakeholders to validate and improve ideas
+- Workflow allows for flexible groups, versioned work and real time conversations
 
 #### Frameworks:  
-- Push Notifications, 
-- AVFoundation,
-- Firebase Authentication,
-- Grand Central Dispatch
+- Firebase/Firestore
+- Fabric
+- AVFoundation
+- JSQMessagesController
+
 
 <br/>
 <br/>
@@ -78,15 +78,14 @@ My goal with ARGlobe is to guide users to a real-time understanding what's going
 #### Unique Features: 
 - Fuzzy Search (Fuse), 
 - 'Smart' 3D label, 
-- Camera Transitions between Physical Simulation and Styled Camera, 
+- Camera Transitions between physical simulation and styled perspective, 
 - Created library of accurate planetary calculations [Check them out here](https://github.com/dhmspector/ZeitSatTrack/pull/2)
 - Created system to map 2D coordinates to 3D space. 
-- Created Custom Time Picker w/ Delegate.
-- Integrated Playgrounds to easily validate and upload events
+- Created custom time picker w/ delegate.
 
 #### Frameworks:  
 - MapKit, 
-- UserNotificationKit, 
+- UserNotificationKit
 - ZeitSatTracker
 - Grand Central Dispatch
 - FireStore
@@ -116,7 +115,7 @@ Whalin Around was designed with a goal of completing the app cycle from idea to 
 - Responsible for entirety of App (Design, Code, Character Art, Music)
 
 #### Unique Features: 
-- Worked with designer to create background artwork
+- Worked with artist to create background artwork
 - Advertisements
 - In App Purchases
 
