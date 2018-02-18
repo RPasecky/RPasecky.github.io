@@ -72,7 +72,7 @@ My goal with ARGlobe is to guide users to a real-time understanding what's going
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JPZD7Jdx498?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-#### <a href="https://arglobe-storefront.herokuapp.com/">Try it on testflight</a>
+#### <a href="https://arglobe-storefront.herokuapp.com/">Try it on TestFlight</a> → Super Secure Password: "to_space!" 
 
 #### On this project:
 - Responsible for the entirety of iOS App (Design, Code)
