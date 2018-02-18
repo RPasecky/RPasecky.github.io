@@ -72,6 +72,8 @@ My goal with ARGlobe is to guide users to a real-time understanding what's going
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JPZD7Jdx498?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+#### <a href="https://arglobe-storefront.herokuapp.com/">Try it on testflight</a>
+
 #### On this project:
 - Responsible for the entirety of iOS App (Design, Code)
 
