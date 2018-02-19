@@ -5,7 +5,8 @@ permalink: /about/
 ---
 ### About Me: 
 
+Software Developer, Engineer interested in making useful tools. 
 
 ### Contact me
 
-ryan -dot- pasecky *at* gmail -dot- com
+Ryan.Pasecky@gmail.com
