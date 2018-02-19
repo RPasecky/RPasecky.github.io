@@ -113,9 +113,9 @@ Whalin Around was designed with a goal of completing the app cycle from idea to 
 
 
 #### Video: 
-
+<div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z75DKWZHfjs?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+</div>
 <br/>
 
 <a href="https://itunes.apple.com/ph/app/whalin-around/id1143954745?mt=8"><img border="0" alt="Download from App Store" src="../images/appStoreDownload.png" width="120" height="40"></a>
@@ -144,9 +144,10 @@ Whalin Around was designed with a goal of completing the app cycle from idea to 
 
 ### ChemDeck
 
+<div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g4uJb2z8d1E?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 Prototype for helping students through the 'memorization' portion of Biochemistry using an interactive deck of cards
-
+</div>
 
 ### Cubes In Space
 
