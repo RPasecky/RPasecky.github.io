@@ -9,10 +9,11 @@ markdown: redcarpet
 
 See the video below for an overview of my major projects to date. You can find a more detailed description of each below. 
 
+<div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/131BftXIuzI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 
-#Github: <a href="github.com/RPasecky">RPasecky</a>
 <br/>
 <br/>
 <br/>
@@ -33,7 +34,9 @@ We saw a particular pain point with messy work typical in the STEM environment (
 
 #### Video: 
 
+<div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/k-HUYlVD7q4?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 *Winner of 4.0 Schools 'Tiny Fellowship', Winner of Seattle Startup Weekend EDU*
 
@@ -72,7 +75,9 @@ My goal with ARGlobe is to guide users to a real-time understanding what's going
 
 #### Video: 
 
+<div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JPZD7Jdx498?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 #### <a href="https://arglobe-storefront.herokuapp.com/">Try it on TestFlight</a> → Super Secure Password: "to_space!" 
 
