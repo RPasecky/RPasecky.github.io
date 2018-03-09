@@ -67,11 +67,11 @@ We saw a particular pain point with messy work typical in the STEM environment (
 <br/>
 <br/>
 
-## ARGlobe: 
+## Orbital Almanac: 
 
 #### Explore earth's orbit through time in Augmented Reality
 
-My goal with ARGlobe is to guide users to a real-time understanding what's going on above our heads in earth's orbit. ARKit made visualizing that neighborhood possible, and fun. User's will be able to explore satellite constellations, what they do, what orbits they use and what paths they will take. 
+My goal with Orbital Almanac is to guide users to a real-time understanding what's going on above our heads in earth's orbit. ARKit made visualizing that neighborhood possible, and fun. User's will be able to explore satellite constellations, what they do, what orbits they use and what paths they will take. 
 
 #### Video: 
 
